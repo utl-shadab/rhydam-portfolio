@@ -10,7 +10,7 @@ return {
 	assets: new Set(["fonts/saans-regular.woff2","fonts/serrif-compressed-light.woff2","hero.mp4","hero.png","icons/panda-logo.svg","manifest.webmanifest","service-worker.js"]),
 	mimeTypes: {".woff2":"font/woff2",".mp4":"video/mp4",".png":"image/png",".svg":"image/svg+xml",".webmanifest":"application/manifest+json"},
 	_: {
-		client: {start:"_app/immutable/entry/start.CgOyLAq-.js",app:"_app/immutable/entry/app.B3RZmse6.js",imports:["_app/immutable/entry/start.CgOyLAq-.js","_app/immutable/chunks/D5lFAyRB.js","_app/immutable/chunks/KE3d35lL.js","_app/immutable/entry/app.B3RZmse6.js","_app/immutable/chunks/KE3d35lL.js","_app/immutable/chunks/O6-aNYLC.js","_app/immutable/chunks/CP97kCR3.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.CZ-mk5bi.js",app:"_app/immutable/entry/app.DZg-ZGSV.js",imports:["_app/immutable/entry/start.CZ-mk5bi.js","_app/immutable/chunks/hP3kmLm1.js","_app/immutable/chunks/KE3d35lL.js","_app/immutable/entry/app.DZg-ZGSV.js","_app/immutable/chunks/KE3d35lL.js","_app/immutable/chunks/O6-aNYLC.js","_app/immutable/chunks/CP97kCR3.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),

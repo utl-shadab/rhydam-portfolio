@@ -1,0 +1,22 @@
+{
+  "breakpoints": [375, 768, 1280, 1536],
+  "out": "./src/lib/bones",
+  "wait": 900,
+  "color": "rgba(7, 7, 6, 0.08)",
+  "darkColor": "rgba(243, 239, 231, 0.1)",
+  "animate": "shimmer",
+  "shimmerColor": "rgba(243, 239, 231, 0.2)",
+  "darkShimmerColor": "rgba(243, 239, 231, 0.16)",
+  "speed": "1.6s",
+  "shimmerAngle": 110,
+  "stagger": 50,
+  "transition": 260,
+  "skeletons": {
+    "home-featured-projects": { "route": "/", "wait": 500 },
+    "home-services": { "route": "/", "wait": 500 },
+    "home-stats": { "route": "/", "wait": 500 },
+    "home-testimonials": { "route": "/", "wait": 500 },
+    "projects-index": { "route": "/projects", "wait": 500 },
+    "blog-index": { "route": "/blog", "wait": 500 }
+  }
+}

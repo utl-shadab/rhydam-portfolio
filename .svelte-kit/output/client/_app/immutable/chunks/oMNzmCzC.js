@@ -1,0 +1,1 @@
+import{t as e}from"./O6-aNYLC.js";import{n as t}from"./CNtXYDPd.js";async function n(){if(t())return null;let[{default:n},r]=await Promise.all([e(()=>import(`./DzJalqAM.js`),[],import.meta.url),e(()=>import(`./Dd2UVZE8.js`),[],import.meta.url)]),i=r.ScrollTrigger;return n.registerPlugin(i),{gsap:n,ScrollTrigger:i}}export{n as t};

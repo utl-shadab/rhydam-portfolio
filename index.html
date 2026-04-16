@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070706" />
+    <title>Rhydam Panda | Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Full-stack developer portfolio for Rhydam Panda, focused on SaaS products, AI dashboards, APIs, performance, and scalable web systems."
+    />
+    <style>
+      @font-face {
+        font-family: Saans;
+        src: url('/fonts/saans-regular.woff2') format('woff2');
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: SerrifCompressed;
+        src: url('/fonts/serrif-compressed-light.woff2') format('woff2');
+        font-display: swap;
+      }
+
+      :root {
+        color-scheme: dark;
+        background: #070706;
+        color: #f3efe7;
+        font-family: Saans, ui-sans-serif, system-ui, sans-serif;
+      }
+
+      body {
+        min-width: 320px;
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background:
+          linear-gradient(rgba(243, 239, 231, 0.026) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(243, 239, 231, 0.018) 1px, transparent 1px),
+          #070706;
+        background-size: 48px 48px;
+      }
+
+      main {
+        width: min(100% - 2rem, 64rem);
+      }
+
+      img {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 8px;
+        background: #f3efe7;
+        padding: 0.25rem;
+      }
+
+      h1 {
+        max-width: 10ch;
+        margin: 2rem 0 0;
+        font-family: SerrifCompressed, Georgia, serif;
+        font-size: 5rem;
+        font-weight: 300;
+        line-height: 0.92;
+      }
+
+      p {
+        max-width: 42rem;
+        color: rgba(243, 239, 231, 0.68);
+        font-size: 1.125rem;
+        line-height: 1.7;
+      }
+
+      a {
+        display: inline-flex;
+        margin-top: 1.5rem;
+        border-radius: 8px;
+        background: #ff4101;
+        color: #070706;
+        padding: 0.85rem 1.1rem;
+        font-weight: 700;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="/icons/panda-logo.svg" width="430" height="430" alt="Rhydam Panda logo" />
+      <h1>Rhydam Panda builds product-grade web systems.</h1>
+      <p>
+        This SvelteKit portfolio runs from the application shell. Open the local dev server to view the full
+        interactive experience.
+      </p>
+      <a href="/">Open portfolio</a>
+    </main>
+  </body>
+</html>

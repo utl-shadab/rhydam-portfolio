@@ -1,0 +1,1 @@
+import{B as e,F as t,S as n,et as r,w as i,x as a}from"./KE3d35lL.js";import"./CP97kCR3.js";var o=i(`<span class="inline-flex rounded-[8px] border border-[var(--line)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.08em] text-[var(--text-muted)]"> </span>`);function s(i,s){var c=o(),l=e(c,!0);r(c),t(()=>a(l,s.label)),n(i,c)}export{s as t};

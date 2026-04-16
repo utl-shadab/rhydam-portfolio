@@ -1,0 +1,19 @@
+{
+  "name": "Rhydam Panda Portfolio",
+  "short_name": "Panda",
+  "description": "Full-stack developer portfolio for Rhydam Panda.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070706",
+  "theme_color": "#070706",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/panda-logo.svg",
+      "sizes": "430x430",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

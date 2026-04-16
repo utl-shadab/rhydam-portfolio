@@ -1,0 +1,448 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js",
+      "_internal.js"
+    ]
+  },
+  "_Badge.js": {
+    "file": "chunks/Badge.js",
+    "name": "Badge",
+    "imports": [
+      "_dev.js"
+    ]
+  },
+  "_Button.js": {
+    "file": "chunks/Button.js",
+    "name": "Button",
+    "imports": [
+      "_dev.js"
+    ]
+  },
+  "_Logo.PDYC9B-J.css": {
+    "file": "_app/immutable/assets/Logo.PDYC9B-J.css",
+    "src": "_Logo.PDYC9B-J.css"
+  },
+  "_Logo.js": {
+    "file": "chunks/Logo.js",
+    "name": "Logo",
+    "imports": [
+      "_dev.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Logo.PDYC9B-J.css"
+    ]
+  },
+  "_MetricStrip.js": {
+    "file": "chunks/MetricStrip.js",
+    "name": "MetricStrip",
+    "imports": [
+      "_dev.js"
+    ]
+  },
+  "_ParallaxImage.js": {
+    "file": "chunks/ParallaxImage.js",
+    "name": "ParallaxImage",
+    "imports": [
+      "_index-server.js",
+      "_dev.js",
+      "_Picture.js",
+      "_gsap.js"
+    ]
+  },
+  "_Picture.js": {
+    "file": "chunks/Picture.js",
+    "name": "Picture",
+    "imports": [
+      "_dev.js"
+    ]
+  },
+  "_ProjectGridSkeleton.js": {
+    "file": "chunks/ProjectGridSkeleton.js",
+    "name": "ProjectGridSkeleton",
+    "imports": [
+      "_dev.js",
+      "_Badge.js",
+      "_Picture.js"
+    ]
+  },
+  "_ScrollReveal.js": {
+    "file": "chunks/ScrollReveal.js",
+    "name": "ScrollReveal",
+    "imports": [
+      "_index-server.js",
+      "_dev.js",
+      "_gsap.js"
+    ]
+  },
+  "_Seo2.js": {
+    "file": "chunks/Seo2.js",
+    "name": "Seo",
+    "imports": [
+      "_dev.js",
+      "_seo.js"
+    ]
+  },
+  "_Skeleton.js": {
+    "file": "chunks/Skeleton.js",
+    "name": "Skeleton",
+    "imports": [
+      "_dev.js"
+    ]
+  },
+  "_dev.js": {
+    "file": "chunks/dev.js",
+    "name": "dev"
+  },
+  "_environment.js": {
+    "file": "chunks/environment.js",
+    "name": "environment"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_dev.js"
+    ]
+  },
+  "_gsap.js": {
+    "file": "chunks/gsap.js",
+    "name": "gsap"
+  },
+  "_index-server.js": {
+    "file": "chunks/index-server.js",
+    "name": "index-server",
+    "imports": [
+      "_dev.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_index-server.js",
+      "_environment.js",
+      "_dev.js"
+    ]
+  },
+  "_portfolio.js": {
+    "file": "chunks/portfolio.js",
+    "name": "portfolio",
+    "imports": [
+      "_seo.js"
+    ]
+  },
+  "_seo.js": {
+    "file": "chunks/seo.js",
+    "name": "seo"
+  },
+  "_shared.js": {
+    "file": "chunks/shared.js",
+    "name": "shared",
+    "imports": [
+      "_index-server.js"
+    ]
+  },
+  "_state.js": {
+    "file": "chunks/state.js",
+    "name": "state",
+    "imports": [
+      "_index-server.js",
+      "_environment.js",
+      "_internal.js",
+      "_exports.js",
+      "_shared.js",
+      "_dev.js"
+    ]
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils",
+    "imports": [
+      "_environment.js",
+      "_shared.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js": {
+    "file": "remote-entry.js",
+    "name": "remote-entry",
+    "src": "node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js",
+      "_utils.js",
+      "_shared.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_environment.js",
+      "_internal.js",
+      "_utils.js",
+      "_exports.js",
+      "_shared.js",
+      "_dev.js"
+    ]
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "name": "entries/pages/_error.svelte",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_state.js",
+      "_dev.js",
+      "_Button.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-server.js",
+      "_state.js",
+      "_exports.js",
+      "_Skeleton.js",
+      "_dev.js",
+      "_Logo.js",
+      "_gsap.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Dfm9IxVJ.css"
+    ]
+  },
+  "src/routes/+page.server.ts": {
+    "file": "entries/pages/_page.server.ts.js",
+    "name": "entries/pages/_page.server.ts",
+    "src": "src/routes/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-server.js",
+      "_Skeleton.js",
+      "_dev.js",
+      "_ScrollReveal.js",
+      "_Seo2.js",
+      "_ProjectGridSkeleton.js",
+      "_Button.js",
+      "_Logo.js",
+      "_MetricStrip.js",
+      "_gsap.js"
+    ]
+  },
+  "src/routes/about/+page.server.ts": {
+    "file": "entries/pages/about/_page.server.ts.js",
+    "name": "entries/pages/about/_page.server.ts",
+    "src": "src/routes/about/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "name": "entries/pages/about/_page.svelte",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_dev.js",
+      "_ParallaxImage.js",
+      "_Seo2.js",
+      "_MetricStrip.js",
+      "_Picture.js"
+    ]
+  },
+  "src/routes/blog/+page.server.ts": {
+    "file": "entries/pages/blog/_page.server.ts.js",
+    "name": "entries/pages/blog/_page.server.ts",
+    "src": "src/routes/blog/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js",
+      "_seo.js"
+    ]
+  },
+  "src/routes/blog/+page.svelte": {
+    "file": "entries/pages/blog/_page.svelte.js",
+    "name": "entries/pages/blog/_page.svelte",
+    "src": "src/routes/blog/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_Skeleton.js",
+      "_dev.js",
+      "_Seo2.js",
+      "_Badge.js",
+      "_Picture.js"
+    ]
+  },
+  "src/routes/blog/[slug]/+error.svelte": {
+    "file": "entries/pages/blog/_slug_/_error.svelte.js",
+    "name": "entries/pages/blog/_slug_/_error.svelte",
+    "src": "src/routes/blog/[slug]/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_dev.js",
+      "_Button.js"
+    ]
+  },
+  "src/routes/blog/[slug]/+page.server.ts": {
+    "file": "entries/pages/blog/_slug_/_page.server.ts.js",
+    "name": "entries/pages/blog/_slug_/_page.server.ts",
+    "src": "src/routes/blog/[slug]/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js",
+      "_seo.js"
+    ]
+  },
+  "src/routes/blog/[slug]/+page.svelte": {
+    "file": "entries/pages/blog/_slug_/_page.svelte.js",
+    "name": "entries/pages/blog/_slug_/_page.svelte",
+    "src": "src/routes/blog/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-server.js",
+      "_dev.js",
+      "_Seo2.js",
+      "_Badge.js",
+      "_Picture.js"
+    ]
+  },
+  "src/routes/contact/+page.server.ts": {
+    "file": "entries/pages/contact/_page.server.ts.js",
+    "name": "entries/pages/contact/_page.server.ts",
+    "src": "src/routes/contact/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js"
+    ]
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "name": "entries/pages/contact/_page.svelte",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_dev.js",
+      "_Seo2.js",
+      "_Button.js"
+    ]
+  },
+  "src/routes/philosophy/+page.server.ts": {
+    "file": "entries/pages/philosophy/_page.server.ts.js",
+    "name": "entries/pages/philosophy/_page.server.ts",
+    "src": "src/routes/philosophy/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js"
+    ]
+  },
+  "src/routes/philosophy/+page.svelte": {
+    "file": "entries/pages/philosophy/_page.svelte.js",
+    "name": "entries/pages/philosophy/_page.svelte",
+    "src": "src/routes/philosophy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_dev.js",
+      "_ScrollReveal.js",
+      "_Seo2.js"
+    ]
+  },
+  "src/routes/projects/+page.server.ts": {
+    "file": "entries/pages/projects/_page.server.ts.js",
+    "name": "entries/pages/projects/_page.server.ts",
+    "src": "src/routes/projects/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js",
+      "_seo.js"
+    ]
+  },
+  "src/routes/projects/+page.svelte": {
+    "file": "entries/pages/projects/_page.svelte.js",
+    "name": "entries/pages/projects/_page.svelte",
+    "src": "src/routes/projects/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_Skeleton.js",
+      "_dev.js",
+      "_Seo2.js",
+      "_ProjectGridSkeleton.js"
+    ]
+  },
+  "src/routes/projects/[slug]/+error.svelte": {
+    "file": "entries/pages/projects/_slug_/_error.svelte.js",
+    "name": "entries/pages/projects/_slug_/_error.svelte",
+    "src": "src/routes/projects/[slug]/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_dev.js",
+      "_Button.js"
+    ]
+  },
+  "src/routes/projects/[slug]/+page.server.ts": {
+    "file": "entries/pages/projects/_slug_/_page.server.ts.js",
+    "name": "entries/pages/projects/_slug_/_page.server.ts",
+    "src": "src/routes/projects/[slug]/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js",
+      "_seo.js"
+    ]
+  },
+  "src/routes/projects/[slug]/+page.svelte": {
+    "file": "entries/pages/projects/_slug_/_page.svelte.js",
+    "name": "entries/pages/projects/_slug_/_page.svelte",
+    "src": "src/routes/projects/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_dev.js",
+      "_ParallaxImage.js",
+      "_Seo2.js",
+      "_Badge.js",
+      "_Button.js",
+      "_MetricStrip.js",
+      "_Picture.js"
+    ]
+  },
+  "src/routes/work/+page.server.ts": {
+    "file": "entries/pages/work/_page.server.ts.js",
+    "name": "entries/pages/work/_page.server.ts",
+    "src": "src/routes/work/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_portfolio.js"
+    ]
+  },
+  "src/routes/work/+page.svelte": {
+    "file": "entries/pages/work/_page.svelte.js",
+    "name": "entries/pages/work/_page.svelte",
+    "src": "src/routes/work/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_dev.js",
+      "_ParallaxImage.js",
+      "_Seo2.js",
+      "_Button.js",
+      "_MetricStrip.js"
+    ]
+  }
+}

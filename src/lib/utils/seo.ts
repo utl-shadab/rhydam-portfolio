@@ -1,7 +1,7 @@
 import type { PageSeo } from '$types/content';
 
-const siteName = 'Rhydam Panda';
-const siteUrl = 'https://rhydam-panda.example';
+export const siteName = 'Rhydam Panda';
+export const siteUrl = 'https://rhydam-panda.example';
 
 export function createSeo(input: PageSeo): PageSeo {
   return {

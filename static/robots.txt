@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rhydam-2026.vercel.app/
